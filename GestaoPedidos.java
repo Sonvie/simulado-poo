@@ -1,3 +1,5 @@
+// Questão 04
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -39,7 +41,7 @@ public class GestaoPedidos {
 
         pedidos.proximoPedido();
 
-        System.out.println(pedidos.quantidadePendentes());
+        System.out.println("Quantidade de pedidos: " + pedidos.quantidadePendentes());
     }
 
 }
